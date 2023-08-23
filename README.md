@@ -1,3 +1,13 @@
+Things to instal
+- `npm install @react-three/drei`
+- `npm i @react-three/fiber`
+- `npm i @react-three/rapier`
+
+Transform glb model to react jsx 
+### `npx gltfjsx model.gltf --transform`
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +78,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+

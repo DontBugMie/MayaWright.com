@@ -1,6 +1,21 @@
 .App {
   text-align: center;
+  height:500vh;
+  overflow-x: hidden;
 }
+
+.trapezoid{
+  position: 'absolute';
+  z-index: 10;
+  top:100vh;
+  border-bottom: 25vh solid #555;
+	border-left: 100vw solid transparent;
+	border-right: 0px solid transparent;
+	height: 0;
+	width: 0;
+}
+
+
 
 .App-logo {
   height: 40vmin;
