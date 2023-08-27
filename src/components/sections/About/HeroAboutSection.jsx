@@ -12,7 +12,7 @@ export default function HeroAboutSection(){
             width: '100%',
             position: 'absolute',
             top:'75vh',
-            zIndex: 2,
+            zIndex: 7,
             }}
         >
             <Canvas>

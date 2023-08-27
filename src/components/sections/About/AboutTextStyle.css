@@ -1,0 +1,21 @@
+.word p {
+    color: 'rgb(84, 143, 141)';
+    margin: 0;
+    font-size: 1em;
+    transform: translatey(-100vh);
+    animation: fall 3.5s forwards;
+    padding-bottom: 5%;
+}
+
+@keyframes fall {
+    100% {
+        transform: translateY(0)
+    }
+}
+
+.brainContainer{
+    position: 'absolute';
+    z-index: -2;
+    top: -15;
+    width: 50%
+}

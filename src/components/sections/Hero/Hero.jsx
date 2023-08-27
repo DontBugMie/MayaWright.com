@@ -32,12 +32,12 @@ export default function Hero() {
                         <spotLight color="white" position={[0,-10,30]} intensity={1000}/>
                         <spotLight color="white" position={[10,-10,30]} intensity={1000}/>
                         <spotLight color="white" position={[-10,-10,30]} intensity={1000}/>
-                    <HeadAqua boundary={1} count={200}/>
-                    <HeadGreen boundary={1} count={200}/>
-                    <HeadOrange boundary={1} count={200}/>
-                    <HeadPink boundary={1} count={200}/>
-                    <HeadWhite boundary={1} count={200}/>
-                    <HeadYellow boundary={1} count={200}/>
+                    <HeadAqua boundary={1} count={50}/>
+                    <HeadGreen boundary={1} count={50}/>
+                    <HeadOrange boundary={1} count={50}/>
+                    <HeadPink boundary={1} count={50}/>
+                    <HeadWhite boundary={1} count={50}/>
+                    <HeadYellow boundary={1} count={50}/>
                     <HeroText />
                     <LoadingText/>
                     <BoxContainer/>
