@@ -8,7 +8,6 @@ export default function AboutSection() {
         <div>
         <div
             style={{
-                // backgroundImage: `url(${cloudbackground})`,
                 backgroundImage: 'linear-gradient( rgb(253,231,22), rgb(207,243,242) 5%)',
                 height: '80vh',
                 marginBottom: 0

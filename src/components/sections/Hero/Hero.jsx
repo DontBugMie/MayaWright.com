@@ -1,5 +1,4 @@
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
 import { Physics } from "@react-three/rapier";
 import BoxContainer from "./BoxContainer";
 import HeroText from "./HeroText";
@@ -18,14 +17,9 @@ export default function Hero() {
             style={{
                 backgroundColor: 'yellow',
                 height: '100vh',
-                // position: 'absolute',
-                // zIndex: 2,
                 }}>
-                {/* <OrbitControls/> */}
+        
             <Physics>
-            {/* <OrthographicCamera 
-                position={[0, 0, 35]}
-                > */}
                         <ambientLight color="white" intensity={2} />
                         <spotLight color="white" position={[0,10,30]} intensity={1000}/>
                         <spotLight color="white" position={[0,0,30]} intensity={1000}/>
@@ -41,7 +35,6 @@ export default function Hero() {
                     <HeroText />
                     <LoadingText/>
                     <BoxContainer/>
-                {/* </OrthographicCamera> */}
             </Physics>
             </Canvas>
         </div>
