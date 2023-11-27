@@ -18,7 +18,7 @@ export default function Hero() {
                 backgroundColor: 'yellow',
                 height: '100vh',
                 }}>
-        
+
             <Physics>
                         <ambientLight color="white" intensity={2} />
                         <spotLight color="white" position={[0,10,30]} intensity={1000}/>
@@ -26,16 +26,16 @@ export default function Hero() {
                         <spotLight color="white" position={[0,-10,30]} intensity={1000}/>
                         <spotLight color="white" position={[10,-10,30]} intensity={1000}/>
                         <spotLight color="white" position={[-10,-10,30]} intensity={1000}/>
-                    <HeadAqua boundary={1} count={50}/>
-                    <HeadGreen boundary={1} count={50}/>
-                    <HeadOrange boundary={1} count={50}/>
-                    <HeadPink boundary={1} count={50}/>
-                    <HeadWhite boundary={1} count={50}/>
-                    <HeadYellow boundary={1} count={50}/>
+                    <HeadAqua boundary={1} count={100}/>
+                    <HeadGreen boundary={1} count={100}/>
+                    <HeadOrange boundary={1} count={100}/>
+                    <HeadPink boundary={1} count={100}/>
+                    <HeadWhite boundary={1} count={100}/>
+                    <HeadYellow boundary={1} count={100}/>
                     <HeroText />
-                    <LoadingText/>
                     <BoxContainer/>
             </Physics>
+            
             </Canvas>
         </div>
     )

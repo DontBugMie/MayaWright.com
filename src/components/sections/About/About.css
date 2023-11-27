@@ -1,0 +1,15 @@
+.aboutWordContainer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+
+.aboutWordWrapper {
+    width: 60%;
+    align-self: center;
+}
+
+p {
+    color: rgb(108, 89, 183);
+    font-size: large;
+}

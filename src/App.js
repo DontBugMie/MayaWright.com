@@ -1,16 +1,16 @@
 import './App.css';
 import Hero from './components/sections/Hero/Hero';
-import HeroAboutSection from './components/sections/About/HeroAboutSection';
-import AboutSection from './components/sections/About/AboutSection';
+import AboutSection from './components/sections/About/AboutSection.jsx';
+import ProjectsSection from './components/sections/Projects/Projects.jsx';
 
 function App() {
 
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundColor: 'rgb(254,233,61)' }}>
       <div>
         <Hero/>
-        <HeroAboutSection/>
         <AboutSection/>
+        <ProjectsSection/>
       </div>
     </div>
   );
